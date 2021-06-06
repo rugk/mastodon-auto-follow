@@ -1,0 +1,1 @@
+Simplifie le suivi ou l'interaction avec d'autres utilisateurs sur des instances Mastodon distantes dans le Fediverse. Il saute le popup "Entrez votre nom de compte Mastodon" et vous amène à votre propre instance "Maison", sans entrer votre identifiant Mastodon sur les instances distantes.

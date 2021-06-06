@@ -1,0 +1,32 @@
+Définitions :
+ADD-ON - le logiciel auquel cette politique s'applique
+UTILISATEUR - l'UTILISATEUR de l'ADD-ON
+SERVEUR À DISTANCE - un serveur sur Internet, identifié par une adresse de serveur (nom de domaine)
+UTILISATEUR À DISTANCE - un compte d'UTILISATEUR enregistré sur un serveur sur l'Internet, se compose du nom de l'UTILISATEUR et de l'adresse du serveur sur lequel il est enregistré, le SERVEUR À DISTANCE.
+MESSAGE À DISTANCE - toute forme de message, y compris, mais sans s'y limiter, le texte, le multimédia, l'audio et la vidéo ; publié par un utilisateur à distance et enregistré sur un SERVEUR À DISTANCE
+
+Cet ADD-ON n'envoie aucune information personnelle identifiable à l'auteur de l'ADD-ON.
+
+COMPTE PROPRE - un compte UTILISATEUR enregistré sur un serveur sur Internet, se compose du nom et de l'adresse du serveur, l'UTILISATEUR de l'ADD-ON a déclaré dans les paramètres de cet ADD-ON que ce compte lui appartient.
+SERVEUR PROPRE - le serveur sur Internet, identifié par une adresse de serveur (nom de domaine) ; l'UTILISATEUR de l'ADD-ON a déclaré dans les paramètres de cet ADD-ON avoir enregistré son COMPTE PROPRE sur ce serveur.
+
+Si vous accédez à un localisateur de ressources uniforme (URL) d'une manière spécifiée, qui indique que vous essayez de suivre l'UTILISATEUR À DISTANCE ou d'interagir autrement avec l'UTILISATEUR À DISTANCE ou un MESSAGE À DISTANCE publié par un UTILISATEUR À DISTANCE sur un SERVEUR À DISTANCE, l'UTILISATEUR peut rediriger vers un serveur spécifié dans les paramètres du logiciel ADD-ON comme étant un PROPRE SERVEUR.
+Pour ce faire, l'ADD-ON peut contacter le SERVEUR À DISTANCE et le SERVEUR LOCAL et envoyer des informations sur l'UTILISATEUR A DISTANCE et le MESSAGE À DISTANCE.
+De plus, il peut envoyer des informations sur le COMPTE PROPRE et le SERVEUR PROPRE au SERVEUR PROPRE.
+
+L'ADD-ON n'enverra pas d'informations sur votre COMPTE PROPRE ou votre SERVEUR PROPRE à un SERVEUR À DISTANCE. Si ce cas se produit par inadvertance, il est considéré comme une vulnérabilité dans l'ADD-ON.
+Il peut toutefois arriver que le SERVEUR À DISTANCE soit le même que le SERVEUR PROPRE. Dans un tel cas, l'ADD-ON fonctionne de la même manière et peut donc envoyer toutes les informations à son propre serveur.
+
+Une explication de toutes les permissions demandées dans le présent ADD-ON peut être consultée à l'adresse suivante : https://github.com/rugk/mastodon-simplified-federation/blob/master/assets/texts/fr/permissions.md
+
+== IMPLICATIONS == IMPLICATIONS ==
+
+Il y a deux implications à cet ajout :
+1. Comme l'UTILISATEUR n'a plus besoin d'entrer votre identifiant Mastodon sur aucun site Web, cela peut lui procurer un avantage en matière de confidentialité.
+2. Cependant, veuillez noter que les sites Web peuvent toujours détecter que l'UTILISATEUR utilise cet add-on en déclenchant une redirection comme si l'UTILISATEUR avait cliqué sur un bouton. L'UTILISATEUR le verra probablement.
+
+SERVICES DE TIERS == SERVICES DE TIERS ==
+
+Cet ADD-ON utilise le "stockage de synchronisation" de votre navigateur pour stocker les paramètres. Si l'UTILISATEUR active la "synchronisation" dans le navigateur, les paramètres sont téléchargés et synchronisés sur vos appareils connectés à votre compte. Si vous ne le faites pas, les données ne sont stockées que localement sur votre appareil.
+Dans Mozilla Firefox, les données sont cryptées de bout en bout avant d'être téléchargées et stockées sur des serveurs par Mozilla.
+Voir https://accounts.firefox.com/legal/privacy et https://www.mozilla.org/privacy/firefox/#c-privacy-topic-8 pour les politiques de confidentialité de Mozilla à ce sujet.
